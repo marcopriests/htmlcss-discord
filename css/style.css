@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+/* Utility */
+.bg-gray {
+    background-color: lightgray;
+}
+
+.bg-dark {
+    background-color: rgb(44, 44, 44);
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: skyblue;
+}
+
+.dark-cyan {
+    background-color: darkcyan;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.dashed {
+    border: 2px dashed black;
+}
+
+.white-dashed {
+    border: 2px dashed white;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.square {
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* HEADER */
+header {
+    height: 100px;
+}
+
+.head-container {
+    background-color: orange;
+    margin: 20px auto;
+    font-weight: 600;
+}
+
+.head-small-col {
+    width: 20%;
+}
+
+.head-big-col {
+    width: 60%;
+    text-align: center;
+}
+
+.menu-btn {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.menu-btn a {    
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.menu-btn a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.head-content:last-child {
+    text-align: right; /* Ho voluto provare in questo modo */
+}
+
+/* MAIN */
+section {
+    padding: 50px 0;
+    height: 400px;
+}
+
+section:first-child{
+    background-color: navy;
+}
+
+section:nth-child(5) {
+    height: 600px;
+}
+
+section:nth-child(5) .square{
+    background-color: green;
+}
+
+section:last-child{
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.col {
+    height: 100%;
+    flex-grow: 1;
+}
+
+footer {
+    height: 100px;
+    padding-top: 30px;
+}
+
+.foot-container {
+    margin: 0 auto;
+    font-weight: 600;
+    background-color: aquamarine;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-content {
+    padding: 5px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+footer a:hover {
+    color: pink;
+    background-color: black;
+    text-decoration: underline;
+    border: 2px dashed pink;
+}
