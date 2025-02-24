@@ -246,6 +246,11 @@ footer {
 .footer-menu .col li a{
     text-decoration: none;
     color: white;
+    transition: .3s;
+}
+
+.footer-menu .col li a:hover{
+    color: #7289da;
 }
 
 .footer-menu-title {
