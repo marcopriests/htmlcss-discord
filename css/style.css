@@ -83,6 +83,10 @@ body {
     justify-content: flex-end;
 }
 
+.container {
+    margin: 0 auto;
+}
+
 /* HEADER */
 header {
     background-color: #255ee9;
@@ -134,7 +138,7 @@ section {
     padding: 50px 0;
 }
 
-/* First section */
+/* Jumbo */
 .jumbo {
     color: #fff;
 }
@@ -179,6 +183,15 @@ section {
 .jumbo-btn:last-child:hover {
     background-color: white;
     color: black;
+}
+
+.subtitle {
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.section-p {
+    font-size: 20px;
 }
 
 section:nth-child(5) {
