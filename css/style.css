@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Poppins";
+    font-family: "League Spartan";
 }
 
 /* Utility */
@@ -53,8 +53,8 @@ body {
     display: flex;
 }
 
-.dashed {
-    border: 2px dashed black;
+.align-items-center{
+    align-items: center;
 }
 
 .white-dashed {
@@ -65,20 +65,42 @@ body {
     padding: 20px;
 }
 
+.text-right {
+    text-align: right;
+}
+
 .square {
     margin: 0 auto;
     height: 100%;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
 /* HEADER */
 header {
-    height: 100px;
+    background-color: #255ee9;
+    color: white;
+    font-size: 20px;
 }
 
 .head-container {
-    background-color: orange;
-    margin: 20px auto;
-    font-weight: 600;
+    margin: 0 auto;
+}
+
+.head-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: black;
+    font-family: "League Spartan";
+    font-size: 20px;
 }
 
 .head-small-col {
@@ -96,19 +118,14 @@ header {
     margin: 0 5px;
 }
 
-.menu-btn a {    
+.menu-btn a {
     text-decoration: none;
-    color: black;
+    color: white;
     transition: .3s;
 }
 
 .menu-btn a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-.head-content:last-child {
-    text-align: right; /* Ho voluto provare in questo modo */
+    color: black;
 }
 
 /* MAIN */
@@ -117,7 +134,7 @@ section {
     height: 400px;
 }
 
-section:first-child{
+section:first-child {
     background-color: navy;
 }
 
@@ -125,11 +142,11 @@ section:nth-child(5) {
     height: 600px;
 }
 
-section:nth-child(5) .square{
+section:nth-child(5) .square {
     background-color: green;
 }
 
-section:last-child{
+section:last-child {
     padding-top: 5px;
     margin-bottom: 0;
 }
